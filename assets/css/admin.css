@@ -1,0 +1,149 @@
+#admin{
+    padding: 5% 10%;
+
+}
+
+#admin h1{
+    text-align: center;
+}
+
+#admin h5{
+    color: #57408D;
+}
+
+.tables{
+    overflow: scroll;
+    background: #F1F1F1;
+    border: 1px solid #CDCDCD;
+    padding: 5%;
+    margin-top: 5%;
+}
+.table-button{
+    float: right;
+    margin-bottom: 1em;
+}
+.pet-photo{
+    
+    width: 120px; 
+    height: auto;
+}
+
+footer{
+    clear: both;
+}
+
+.forms{
+    position: fixed;
+    right: 10%;
+    left: 10%;
+    background:#fff;
+    padding: 5%;
+    /*border: 1px solid #57408D;*/
+    top: 10%;
+    bottom: 10%;
+    overflow-y: scroll;
+    z-index: 999;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.popup-forms>div{
+    display: flex;
+}
+
+.popup-forms label{
+}
+
+.popup-forms input, .popup-forms select, .popup-forms textarea{
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #080808;
+}
+
+.popup-forms input, .popup-forms select{
+    height: 2em;
+}
+
+.popup-forms>button{
+    margin: 5% 2%;
+    float: right;
+}
+
+.columns{
+    flex: 1;
+}
+
+.tbs{
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-spacing: 0;
+}
+
+.tbs thead{
+    background: #D1DDE7;
+}
+
+.tbs td{
+    padding: 1em 0.5em;
+}
+
+.tbs tr{
+    border-bottom: 1px solid #D1DDE7;
+}
+
+.tbs tbody>tr:hover{
+    background: #f2e3e3;
+}
+
+.don-tb td{
+    height:3em;
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabs-item{
+    padding: 1em;
+    flex: 1;
+    background-color: #57408D;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabs-item:hover{
+    background-color: #FFC13B;
+    color: #57408D;
+}
+
+.tab-active{
+    background-color: #FFC13B;
+    color: #57408D;
+}
+
+.tr-pet{
+    cursor: pointer;
+
+}
+
+.tr-adopted{
+    /*background-color: #CFCFCF;*/
+}
+
+.pet-status-text{
+    background: #255F1D;
+    color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .popup-forms>div{
+        display: inherit;
+    }
+}
